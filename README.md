@@ -2,6 +2,9 @@
 
 The implementation of "[Suspicion Agent: Playing Imperfect Information Games with Theory of Mind Aware GPT-4]".
 
+### [Project Demo](https://huggingface.co/spaces/cr7-gjx/Suspicion-Agent-Demo) | [Game Data Replay](https://huggingface.co/spaces/cr7-gjx/Suspicion-Agent-Data-Visualization) 
+
+
 ## Method
 
 ![figure](figures/counterfactual.png)
