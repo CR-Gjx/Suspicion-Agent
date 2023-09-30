@@ -1,20 +1,9 @@
 from pathlib import Path
 from typing import Any, Dict, List, Type
 
-from pydantic import BaseModel, BaseSettings, Extra
+from pydantic.v1 import BaseModel, BaseSettings, Extra
 import os
 
-def json_config_settings_source(settings: BaseSettings) -> Dict[str, Any]:
-    from util import load_json
-
-    # Load settings from JSON config file
-    config_file = Path(os.getcwd(), "config.json")
-    if  not config_file.exists():
-        print("[Error] Please config suspicionagent in ./config.json following https://help.openai.com/en/articles/5112595-best-practices-for-api-key-safety")
-        import sys
-
-        sys.exit(-1)
-    return load_json(config_file)
 
 
 class LLMSettings(BaseModel):

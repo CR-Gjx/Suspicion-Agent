@@ -231,7 +231,7 @@ if __name__ == "__main__":
     parser.add_argument("--rule_model", default="cfr", help="rule model: cfr or nfsp or dqn or dmc")
     parser.add_argument("--mode", default="second_tom", help="inference mode: normal or first_tom or second_tom")
     parser.add_argument("--agents_num", type=int, default=2)
-    parser.add_argument("--user", action="store_true")
+    parser.add_argument("--user", action="store_true", help="one of the agents is baseline mode, e.g. cfr, nfsp")
     parser.add_argument("--verbose_print", action="store_true")
     parser.add_argument("--user_index", type=int, default=1, help="user position: 0 or 1")
     parser.add_argument("--game_num", type=int, default=50)

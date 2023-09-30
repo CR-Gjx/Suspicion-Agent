@@ -9,7 +9,7 @@ from langchain.base_language import BaseLanguageModel
 from langchain.prompts import PromptTemplate
 from langchain.retrievers import TimeWeightedVectorStoreRetriever
 from langchain.schema import Document
-from pydantic import BaseModel, Field
+from pydantic.v1 import BaseModel, Field
 from termcolor import colored
 import util
 import time
@@ -393,32 +393,23 @@ class SuspicionAgent(BaseModel):
     def make_act(self, observation: str,opponent_name: str, player_index:int,valid_action_list: List, verbose_print:bool,game_idx:int,round:int,bot_short_memory:List, bot_long_memory:List, console,log_file_name='', mode='second_tom') -> Tuple[bool, str]:
         readable_text_amy_obs = self.convert_obs(observation, opponent_name, player_index, valid_action_list)
         if  verbose_print:
-            util.get_logging(logger_name=log_file_name + '_obs',
-                        content={str(game_idx + 1) + "_" + str(round): {"raw_obs": observation,
-                                                                        "readable_text_obs": readable_text_amy_obs}})
             console.print('readable_text_obs: ', style="red")
             print(readable_text_amy_obs)
+                   
         time.sleep(0)
         if len(bot_short_memory[player_index]) == 1:
             short_memory_summary = f'{game_idx+1}th Game Start \n'+readable_text_amy_obs
         else:
             short_memory_summary = self.get_short_memory_summary(observation=readable_text_amy_obs, recipient_name=opponent_name,short_memory_summary='\n'.join(bot_short_memory[player_index]))
 
-        if log_file_name is not None:
-            util.get_logging(logger_name=log_file_name + '_short_memory',
-                        content={str(game_idx + 1) + "_" + str(round): {
-                            "raw_short_memory": '\n'.join(bot_short_memory[player_index]),
-                            "short_memory_summary": short_memory_summary}})
+            
         if verbose_print:
             console.print('short_memory_summary: ', style="yellow")
             print(short_memory_summary)
 
         time.sleep(0)
         if  round <= 1:
-                self.pattern = self.get_pattern(opponent_name,'',short_summarization=short_memory_summary,mode=mode)
-                if log_file_name is not None:
-                    util.get_logging(logger_name=log_file_name + '_pattern_model',
-                                content={str(game_idx + 1) + "_" + str(round): self.pattern})
+                self.pattern = self.get_pattern(opponent_name,'',short_summarization=short_memory_summary,mode=mode)        
                 console.print('pattern: ', style="blue")
                 print(self.pattern)
 
@@ -430,9 +421,7 @@ class SuspicionAgent(BaseModel):
             if verbose_print:
                 console.print(self.name + " belief: " , style="deep_pink3")
                 print(self.name + " belief: " + str(belief))
-                util.get_logging(logger_name=log_file_name + '_belief',
-                            content={str(game_idx + 1) + "_" + str(round): {
-                                "belief": str(belief)}})
+                
         else:
             belief = ''
 
@@ -441,17 +430,32 @@ class SuspicionAgent(BaseModel):
         if  verbose_print:
             console.print(self.name + " plan: " , style="orchid")
             print(self.name + " plan: " + str(plan))
-            util.get_logging(logger_name=log_file_name + '_plan',
-                        content={str(game_idx + 1) + "_" + str(round): {
-                            "plan": str(plan)}})
+            
         time.sleep(0)
         promp_head = ''
         act, comm = self.action_decision(readable_text_amy_obs, valid_action_list, promp_head,short_memory_summary=short_memory_summary)
+
         if log_file_name is not None:
+            util.get_logging(logger_name=log_file_name + '_obs',
+                        content={str(game_idx + 1) + "_" + str(round): {"raw_obs": observation,
+                                                                        "readable_text_obs": readable_text_amy_obs}})
+            util.get_logging(logger_name=log_file_name + '_short_memory',
+                        content={str(game_idx + 1) + "_" + str(round): {
+                            "raw_short_memory": '\n'.join(bot_short_memory[player_index]),
+                            "short_memory_summary": short_memory_summary}})
+            util.get_logging(logger_name=log_file_name + '_pattern_model',
+                                content={str(game_idx + 1) + "_" + str(round): self.pattern})
+            util.get_logging(logger_name=log_file_name + '_belief',
+                            content={str(game_idx + 1) + "_" + str(round): {
+                                "belief": str(belief)}})
+            util.get_logging(logger_name=log_file_name + '_plan',
+                        content={str(game_idx + 1) + "_" + str(round): {
+                            "plan": str(plan)}})
             util.get_logging(logger_name= log_file_name + '_act',
                         content={str(game_idx + 1) + "_" + str(round): {
                             "act": str(act), "talk_sentence": str(comm)}})
-            
+ 
+
         while act not in valid_action_list:
             print('Action + ', str(act), ' is not a valid action in valid_action_list, please try again.\n')
             promp_head += 'Action {act} is not a valid action in {valid_action_list}, please try again.\n'

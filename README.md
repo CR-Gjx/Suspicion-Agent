@@ -13,7 +13,7 @@ The implementation of "[Suspicion Agent: Playing Imperfect Information Games wit
 
 ## Instruction
 
-Install required packages with below commandsv:
+Install required packages with below command (python >= 3.8.5):
 
 ```
 pip install -r requirements.txt
@@ -24,13 +24,13 @@ Set up the OpenAI key following [OPENAI_KEY](https://help.openai.com/en/articles
 Train and evaluate agents:
 
 ```
-python main_vs_baseline.py
+python main_vs_baseline.py --user --verbose_print  --rule_model [cfr/ nfsp / dqn / dmc]
 ```
 
 ## Sample Output
 
 ![figure](figures/Sample_second.png)
-![figure](figures/Sample_second_fold.png)
+![figure](figures/Sample_Second_fold.png)
 ## Reference
 
 ```
