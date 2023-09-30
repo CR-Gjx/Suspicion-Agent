@@ -1,0 +1,161 @@
+{"message": "", "1_1": {"raw_obs": {"hand": "SQ", "public_card": null, "all_chips": [4, 2], "my_chips": 2, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "1_3": {"raw_obs": {"hand": "SQ", "public_card": "HK", "all_chips": [8, 4], "my_chips": 4, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "2_1": {"raw_obs": {"hand": "HK", "public_card": null, "all_chips": [4, 2], "my_chips": 2, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "2_3": {"raw_obs": {"hand": "HK", "public_card": "HJ", "all_chips": [8, 4], "my_chips": 4, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "3_0": {"raw_obs": {"hand": "SQ", "public_card": null, "all_chips": [2, 1], "my_chips": 1, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "3_2": {"raw_obs": {"hand": "SQ", "public_card": null, "all_chips": [4, 2], "my_chips": 2, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "3_4": {"raw_obs": {"hand": "SQ", "public_card": "HQ", "all_chips": [8, 4], "my_chips": 4, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "4_0": {"raw_obs": {"hand": "SJ", "public_card": null, "all_chips": [2, 1], "my_chips": 1, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "4_2": {"raw_obs": {"hand": "SJ", "public_card": null, "all_chips": [6, 4], "my_chips": 4, "legal_actions": ["call", "fold"], "current_player": 1}}}
+{"message": "", "4_4": {"raw_obs": {"hand": "SJ", "public_card": "SK", "all_chips": [6, 6], "my_chips": 6, "legal_actions": ["raise", "fold", "check"], "current_player": 1}}}
+{"message": "", "5_0": {"raw_obs": {"hand": "SK", "public_card": null, "all_chips": [2, 1], "my_chips": 1, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "5_2": {"raw_obs": {"hand": "SK", "public_card": null, "all_chips": [6, 4], "my_chips": 4, "legal_actions": ["call", "fold"], "current_player": 1}}}
+{"message": "", "5_4": {"raw_obs": {"hand": "SK", "public_card": "HK", "all_chips": [6, 6], "my_chips": 6, "legal_actions": ["raise", "fold", "check"], "current_player": 1}}}
+{"message": "", "5_6": {"raw_obs": {"hand": "SK", "public_card": "HK", "all_chips": [14, 10], "my_chips": 10, "legal_actions": ["call", "fold"], "current_player": 1}}}
+{"message": "", "6_1": {"raw_obs": {"hand": "HK", "public_card": null, "all_chips": [4, 2], "my_chips": 2, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "6_3": {"raw_obs": {"hand": "HK", "public_card": "HQ", "all_chips": [8, 4], "my_chips": 4, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "7_0": {"raw_obs": {"hand": "SQ", "public_card": null, "all_chips": [2, 1], "my_chips": 1, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "7_2": {"raw_obs": {"hand": "SQ", "public_card": null, "all_chips": [4, 2], "my_chips": 2, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "7_4": {"raw_obs": {"hand": "SQ", "public_card": "HJ", "all_chips": [8, 4], "my_chips": 4, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "8_0": {"raw_obs": {"hand": "SK", "public_card": null, "all_chips": [2, 1], "my_chips": 1, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "8_2": {"raw_obs": {"hand": "SK", "public_card": null, "all_chips": [6, 4], "my_chips": 4, "legal_actions": ["call", "fold"], "current_player": 1}}}
+{"message": "", "8_4": {"raw_obs": {"hand": "SK", "public_card": "HK", "all_chips": [10, 6], "my_chips": 6, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "9_0": {"raw_obs": {"hand": "SJ", "public_card": null, "all_chips": [2, 1], "my_chips": 1, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "9_2": {"raw_obs": {"hand": "SJ", "public_card": null, "all_chips": [6, 4], "my_chips": 4, "legal_actions": ["call", "fold"], "current_player": 1}}}
+{"message": "", "9_4": {"raw_obs": {"hand": "SJ", "public_card": "HK", "all_chips": [6, 6], "my_chips": 6, "legal_actions": ["raise", "fold", "check"], "current_player": 1}}}
+{"message": "", "10_1": {"raw_obs": {"hand": "HK", "public_card": null, "all_chips": [4, 2], "my_chips": 2, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "10_3": {"raw_obs": {"hand": "HK", "public_card": "SK", "all_chips": [8, 4], "my_chips": 4, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "11_0": {"raw_obs": {"hand": "SQ", "public_card": null, "all_chips": [2, 1], "my_chips": 1, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "11_2": {"raw_obs": {"hand": "SQ", "public_card": null, "all_chips": [4, 2], "my_chips": 2, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "11_4": {"raw_obs": {"hand": "SQ", "public_card": "SK", "all_chips": [8, 4], "my_chips": 4, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "12_1": {"raw_obs": {"hand": "HJ", "public_card": null, "all_chips": [4, 2], "my_chips": 2, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "12_3": {"raw_obs": {"hand": "HJ", "public_card": "SQ", "all_chips": [8, 4], "my_chips": 4, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "13_1": {"raw_obs": {"hand": "HJ", "public_card": null, "all_chips": [2, 2], "my_chips": 2, "legal_actions": ["raise", "fold", "check"], "current_player": 1}}}
+{"message": "", "13_3": {"raw_obs": {"hand": "HJ", "public_card": "HQ", "all_chips": [6, 2], "my_chips": 2, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "14_0": {"raw_obs": {"hand": "HJ", "public_card": null, "all_chips": [2, 1], "my_chips": 1, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "14_2": {"raw_obs": {"hand": "HJ", "public_card": null, "all_chips": [6, 4], "my_chips": 4, "legal_actions": ["call", "fold"], "current_player": 1}}}
+{"message": "", "14_4": {"raw_obs": {"hand": "HJ", "public_card": "HQ", "all_chips": [10, 6], "my_chips": 6, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "15_0": {"raw_obs": {"hand": "SQ", "public_card": null, "all_chips": [2, 1], "my_chips": 1, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "15_2": {"raw_obs": {"hand": "SQ", "public_card": "HQ", "all_chips": [2, 2], "my_chips": 2, "legal_actions": ["raise", "fold", "check"], "current_player": 1}}}
+{"message": "", "16_1": {"raw_obs": {"hand": "SJ", "public_card": null, "all_chips": [4, 2], "my_chips": 2, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "16_3": {"raw_obs": {"hand": "SJ", "public_card": "SQ", "all_chips": [4, 4], "my_chips": 4, "legal_actions": ["raise", "fold", "check"], "current_player": 1}}}
+{"message": "", "17_0": {"raw_obs": {"hand": "HQ", "public_card": null, "all_chips": [2, 1], "my_chips": 1, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "17_2": {"raw_obs": {"hand": "HQ", "public_card": null, "all_chips": [4, 2], "my_chips": 2, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "17_4": {"raw_obs": {"hand": "HQ", "public_card": "SJ", "all_chips": [8, 4], "my_chips": 4, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "19_0": {"raw_obs": {"hand": "SJ", "public_card": null, "all_chips": [2, 1], "my_chips": 1, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "19_2": {"raw_obs": {"hand": "SJ", "public_card": "HQ", "all_chips": [4, 4], "my_chips": 4, "legal_actions": ["raise", "fold", "check"], "current_player": 1}}}
+{"message": "", "19_4": {"raw_obs": {"hand": "SJ", "public_card": "HQ", "all_chips": [8, 4], "my_chips": 4, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "20_1": {"raw_obs": {"hand": "SQ", "public_card": null, "all_chips": [4, 2], "my_chips": 2, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "20_3": {"raw_obs": {"hand": "SQ", "public_card": "SJ", "all_chips": [8, 4], "my_chips": 4, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "21_1": {"raw_obs": {"hand": "HQ", "public_card": null, "all_chips": [4, 2], "my_chips": 2, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "21_3": {"raw_obs": {"hand": "HQ", "public_card": "SK", "all_chips": [8, 4], "my_chips": 4, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "22_0": {"raw_obs": {"hand": "HJ", "public_card": null, "all_chips": [2, 1], "my_chips": 1, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "22_2": {"raw_obs": {"hand": "HJ", "public_card": null, "all_chips": [6, 4], "my_chips": 4, "legal_actions": ["call", "fold"], "current_player": 1}}}
+{"message": "", "22_4": {"raw_obs": {"hand": "HJ", "public_card": "HQ", "all_chips": [10, 6], "my_chips": 6, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "23_1": {"raw_obs": {"hand": "HQ", "public_card": null, "all_chips": [4, 2], "my_chips": 2, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "23_3": {"raw_obs": {"hand": "HQ", "public_card": "HK", "all_chips": [8, 4], "my_chips": 4, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "24_0": {"raw_obs": {"hand": "SK", "public_card": null, "all_chips": [2, 1], "my_chips": 1, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "24_2": {"raw_obs": {"hand": "SK", "public_card": null, "all_chips": [6, 4], "my_chips": 4, "legal_actions": ["call", "fold"], "current_player": 1}}}
+{"message": "", "24_4": {"raw_obs": {"hand": "SK", "public_card": "SQ", "all_chips": [10, 6], "my_chips": 6, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "25_1": {"raw_obs": {"hand": "HK", "public_card": null, "all_chips": [4, 2], "my_chips": 2, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "25_3": {"raw_obs": {"hand": "HK", "public_card": "HJ", "all_chips": [4, 4], "my_chips": 4, "legal_actions": ["raise", "fold", "check"], "current_player": 1}}}
+{"message": "", "26_0": {"raw_obs": {"hand": "SK", "public_card": null, "all_chips": [2, 1], "my_chips": 1, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "26_2": {"raw_obs": {"hand": "SK", "public_card": "SQ", "all_chips": [4, 4], "my_chips": 4, "legal_actions": ["raise", "fold", "check"], "current_player": 1}}}
+{"message": "", "27_0": {"raw_obs": {"hand": "SJ", "public_card": null, "all_chips": [2, 1], "my_chips": 1, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "27_2": {"raw_obs": {"hand": "SJ", "public_card": "SQ", "all_chips": [4, 4], "my_chips": 4, "legal_actions": ["raise", "fold", "check"], "current_player": 1}}}
+{"message": "", "27_4": {"raw_obs": {"hand": "SJ", "public_card": "SQ", "all_chips": [8, 4], "my_chips": 4, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "28_0": {"raw_obs": {"hand": "SJ", "public_card": null, "all_chips": [2, 1], "my_chips": 1, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "28_2": {"raw_obs": {"hand": "SJ", "public_card": null, "all_chips": [6, 4], "my_chips": 4, "legal_actions": ["call", "fold"], "current_player": 1}}}
+{"message": "", "28_4": {"raw_obs": {"hand": "SJ", "public_card": "HQ", "all_chips": [10, 6], "my_chips": 6, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "29_1": {"raw_obs": {"hand": "HQ", "public_card": null, "all_chips": [2, 2], "my_chips": 2, "legal_actions": ["raise", "fold", "check"], "current_player": 1}}}
+{"message": "", "29_3": {"raw_obs": {"hand": "HQ", "public_card": "SQ", "all_chips": [2, 2], "my_chips": 2, "legal_actions": ["raise", "fold", "check"], "current_player": 1}}}
+{"message": "", "30_1": {"raw_obs": {"hand": "SK", "public_card": null, "all_chips": [4, 2], "my_chips": 2, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "30_3": {"raw_obs": {"hand": "SK", "public_card": "SJ", "all_chips": [4, 4], "my_chips": 4, "legal_actions": ["raise", "fold", "check"], "current_player": 1}}}
+{"message": "", "31_0": {"raw_obs": {"hand": "HJ", "public_card": null, "all_chips": [2, 1], "my_chips": 1, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "31_2": {"raw_obs": {"hand": "HJ", "public_card": "SQ", "all_chips": [4, 4], "my_chips": 4, "legal_actions": ["raise", "fold", "check"], "current_player": 1}}}
+{"message": "", "31_4": {"raw_obs": {"hand": "HJ", "public_card": "SQ", "all_chips": [8, 4], "my_chips": 4, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "32_0": {"raw_obs": {"hand": "HQ", "public_card": null, "all_chips": [2, 1], "my_chips": 1, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "32_2": {"raw_obs": {"hand": "HQ", "public_card": null, "all_chips": [4, 2], "my_chips": 2, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "32_4": {"raw_obs": {"hand": "HQ", "public_card": "SQ", "all_chips": [8, 4], "my_chips": 4, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "33_1": {"raw_obs": {"hand": "HK", "public_card": null, "all_chips": [4, 2], "my_chips": 2, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "33_3": {"raw_obs": {"hand": "HK", "public_card": "SJ", "all_chips": [8, 4], "my_chips": 4, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "34_1": {"raw_obs": {"hand": "HK", "public_card": null, "all_chips": [2, 2], "my_chips": 2, "legal_actions": ["raise", "fold", "check"], "current_player": 1}}}
+{"message": "", "34_3": {"raw_obs": {"hand": "HK", "public_card": "SJ", "all_chips": [6, 2], "my_chips": 2, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "35_1": {"raw_obs": {"hand": "SJ", "public_card": null, "all_chips": [4, 2], "my_chips": 2, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "35_3": {"raw_obs": {"hand": "SJ", "public_card": "HK", "all_chips": [8, 4], "my_chips": 4, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "36_1": {"raw_obs": {"hand": "HK", "public_card": null, "all_chips": [4, 2], "my_chips": 2, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "36_3": {"raw_obs": {"hand": "HK", "public_card": "HJ", "all_chips": [4, 4], "my_chips": 4, "legal_actions": ["raise", "fold", "check"], "current_player": 1}}}
+{"message": "", "37_0": {"raw_obs": {"hand": "SQ", "public_card": null, "all_chips": [2, 1], "my_chips": 1, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "37_2": {"raw_obs": {"hand": "SQ", "public_card": "HQ", "all_chips": [2, 2], "my_chips": 2, "legal_actions": ["raise", "fold", "check"], "current_player": 1}}}
+{"message": "", "37_4": {"raw_obs": {"hand": "SQ", "public_card": "HQ", "all_chips": [10, 6], "my_chips": 6, "legal_actions": ["call", "fold"], "current_player": 1}}}
+{"message": "", "38_1": {"raw_obs": {"hand": "SK", "public_card": null, "all_chips": [4, 2], "my_chips": 2, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "38_3": {"raw_obs": {"hand": "SK", "public_card": "HQ", "all_chips": [4, 4], "my_chips": 4, "legal_actions": ["raise", "fold", "check"], "current_player": 1}}}
+{"message": "", "39_0": {"raw_obs": {"hand": "SJ", "public_card": null, "all_chips": [2, 1], "my_chips": 1, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "39_2": {"raw_obs": {"hand": "SJ", "public_card": "HK", "all_chips": [4, 4], "my_chips": 4, "legal_actions": ["raise", "fold", "check"], "current_player": 1}}}
+{"message": "", "39_4": {"raw_obs": {"hand": "SJ", "public_card": "HK", "all_chips": [8, 4], "my_chips": 4, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "40_0": {"raw_obs": {"hand": "SK", "public_card": null, "all_chips": [2, 1], "my_chips": 1, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "40_2": {"raw_obs": {"hand": "SK", "public_card": "HQ", "all_chips": [4, 4], "my_chips": 4, "legal_actions": ["raise", "fold", "check"], "current_player": 1}}}
+{"message": "", "40_4": {"raw_obs": {"hand": "SK", "public_card": "HQ", "all_chips": [8, 4], "my_chips": 4, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "41_0": {"raw_obs": {"hand": "HK", "public_card": null, "all_chips": [2, 1], "my_chips": 1, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "41_2": {"raw_obs": {"hand": "HK", "public_card": "SQ", "all_chips": [4, 4], "my_chips": 4, "legal_actions": ["raise", "fold", "check"], "current_player": 1}}}
+{"message": "", "41_4": {"raw_obs": {"hand": "HK", "public_card": "SQ", "all_chips": [8, 4], "my_chips": 4, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "42_1": {"raw_obs": {"hand": "HQ", "public_card": null, "all_chips": [4, 2], "my_chips": 2, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "43_1": {"raw_obs": {"hand": "SJ", "public_card": null, "all_chips": [4, 2], "my_chips": 2, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "43_3": {"raw_obs": {"hand": "SJ", "public_card": "SK", "all_chips": [8, 4], "my_chips": 4, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "44_0": {"raw_obs": {"hand": "SQ", "public_card": null, "all_chips": [2, 1], "my_chips": 1, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "44_2": {"raw_obs": {"hand": "SQ", "public_card": null, "all_chips": [4, 2], "my_chips": 2, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "44_4": {"raw_obs": {"hand": "SQ", "public_card": "SJ", "all_chips": [8, 4], "my_chips": 4, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "45_0": {"raw_obs": {"hand": "SK", "public_card": null, "all_chips": [2, 1], "my_chips": 1, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "45_2": {"raw_obs": {"hand": "SK", "public_card": null, "all_chips": [6, 4], "my_chips": 4, "legal_actions": ["call", "fold"], "current_player": 1}}}
+{"message": "", "45_4": {"raw_obs": {"hand": "SK", "public_card": "HJ", "all_chips": [10, 6], "my_chips": 6, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "47_0": {"raw_obs": {"hand": "HQ", "public_card": null, "all_chips": [2, 1], "my_chips": 1, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "47_2": {"raw_obs": {"hand": "HQ", "public_card": null, "all_chips": [4, 2], "my_chips": 2, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "47_4": {"raw_obs": {"hand": "HQ", "public_card": "HK", "all_chips": [4, 4], "my_chips": 4, "legal_actions": ["raise", "fold", "check"], "current_player": 1}}}
+{"message": "", "48_1": {"raw_obs": {"hand": "SK", "public_card": null, "all_chips": [2, 2], "my_chips": 2, "legal_actions": ["raise", "fold", "check"], "current_player": 1}}}
+{"message": "", "48_3": {"raw_obs": {"hand": "SK", "public_card": "HQ", "all_chips": [2, 2], "my_chips": 2, "legal_actions": ["raise", "fold", "check"], "current_player": 1}}}
+{"message": "", "49_0": {"raw_obs": {"hand": "HJ", "public_card": null, "all_chips": [2, 1], "my_chips": 1, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "49_2": {"raw_obs": {"hand": "HJ", "public_card": "HK", "all_chips": [4, 4], "my_chips": 4, "legal_actions": ["raise", "fold", "check"], "current_player": 1}}}
+{"message": "", "49_4": {"raw_obs": {"hand": "HJ", "public_card": "HK", "all_chips": [8, 4], "my_chips": 4, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "50_0": {"raw_obs": {"hand": "SQ", "public_card": null, "all_chips": [2, 1], "my_chips": 1, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "50_2": {"raw_obs": {"hand": "SQ", "public_card": null, "all_chips": [4, 2], "my_chips": 2, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "50_4": {"raw_obs": {"hand": "SQ", "public_card": "SJ", "all_chips": [4, 4], "my_chips": 4, "legal_actions": ["raise", "fold", "check"], "current_player": 1}}}
+{"message": "", "51_0": {"raw_obs": {"hand": "HJ", "public_card": null, "all_chips": [2, 1], "my_chips": 1, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "51_2": {"raw_obs": {"hand": "HJ", "public_card": "SJ", "all_chips": [4, 4], "my_chips": 4, "legal_actions": ["raise", "fold", "check"], "current_player": 1}}}
+{"message": "", "52_0": {"raw_obs": {"hand": "HQ", "public_card": null, "all_chips": [2, 1], "my_chips": 1, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "53_1": {"raw_obs": {"hand": "SQ", "public_card": null, "all_chips": [2, 2], "my_chips": 2, "legal_actions": ["raise", "fold", "check"], "current_player": 1}}}
+{"message": "", "53_3": {"raw_obs": {"hand": "SQ", "public_card": "HQ", "all_chips": [2, 2], "my_chips": 2, "legal_actions": ["raise", "fold", "check"], "current_player": 1}}}
+{"message": "", "54_0": {"raw_obs": {"hand": "HK", "public_card": null, "all_chips": [2, 1], "my_chips": 1, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "54_2": {"raw_obs": {"hand": "HK", "public_card": null, "all_chips": [6, 4], "my_chips": 4, "legal_actions": ["call", "fold"], "current_player": 1}}}
+{"message": "", "54_4": {"raw_obs": {"hand": "HK", "public_card": "SQ", "all_chips": [10, 6], "my_chips": 6, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "55_1": {"raw_obs": {"hand": "HJ", "public_card": null, "all_chips": [4, 2], "my_chips": 2, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "55_3": {"raw_obs": {"hand": "HJ", "public_card": "HK", "all_chips": [8, 4], "my_chips": 4, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "56_0": {"raw_obs": {"hand": "HJ", "public_card": null, "all_chips": [2, 1], "my_chips": 1, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "56_2": {"raw_obs": {"hand": "HJ", "public_card": null, "all_chips": [6, 4], "my_chips": 4, "legal_actions": ["call", "fold"], "current_player": 1}}}
+{"message": "", "56_4": {"raw_obs": {"hand": "HJ", "public_card": "HK", "all_chips": [10, 6], "my_chips": 6, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "57_0": {"raw_obs": {"hand": "SJ", "public_card": null, "all_chips": [2, 1], "my_chips": 1, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "57_2": {"raw_obs": {"hand": "SJ", "public_card": null, "all_chips": [6, 4], "my_chips": 4, "legal_actions": ["call", "fold"], "current_player": 1}}}
+{"message": "", "57_4": {"raw_obs": {"hand": "SJ", "public_card": "HQ", "all_chips": [6, 6], "my_chips": 6, "legal_actions": ["raise", "fold", "check"], "current_player": 1}}}
+{"message": "", "58_0": {"raw_obs": {"hand": "SJ", "public_card": null, "all_chips": [2, 1], "my_chips": 1, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "58_2": {"raw_obs": {"hand": "SJ", "public_card": null, "all_chips": [6, 4], "my_chips": 4, "legal_actions": ["call", "fold"], "current_player": 1}}}
+{"message": "", "58_4": {"raw_obs": {"hand": "SJ", "public_card": "SK", "all_chips": [6, 6], "my_chips": 6, "legal_actions": ["raise", "fold", "check"], "current_player": 1}}}
+{"message": "", "59_1": {"raw_obs": {"hand": "SK", "public_card": null, "all_chips": [4, 2], "my_chips": 2, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "59_3": {"raw_obs": {"hand": "SK", "public_card": "SQ", "all_chips": [4, 4], "my_chips": 4, "legal_actions": ["raise", "fold", "check"], "current_player": 1}}}
+{"message": "", "60_0": {"raw_obs": {"hand": "HQ", "public_card": null, "all_chips": [2, 1], "my_chips": 1, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "60_2": {"raw_obs": {"hand": "HQ", "public_card": null, "all_chips": [4, 2], "my_chips": 2, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "60_4": {"raw_obs": {"hand": "HQ", "public_card": "SQ", "all_chips": [4, 4], "my_chips": 4, "legal_actions": ["raise", "fold", "check"], "current_player": 1}}}
+{"message": "", "60_6": {"raw_obs": {"hand": "HQ", "public_card": "SQ", "all_chips": [12, 8], "my_chips": 8, "legal_actions": ["call", "fold"], "current_player": 1}}}
+{"message": "", "61_0": {"raw_obs": {"hand": "SK", "public_card": null, "all_chips": [2, 1], "my_chips": 1, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "62_1": {"raw_obs": {"hand": "SJ", "public_card": null, "all_chips": [4, 2], "my_chips": 2, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "62_3": {"raw_obs": {"hand": "SJ", "public_card": "SQ", "all_chips": [8, 4], "my_chips": 4, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "63_0": {"raw_obs": {"hand": "HK", "public_card": null, "all_chips": [2, 1], "my_chips": 1, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "63_2": {"raw_obs": {"hand": "HK", "public_card": null, "all_chips": [6, 4], "my_chips": 4, "legal_actions": ["call", "fold"], "current_player": 1}}}
+{"message": "", "63_4": {"raw_obs": {"hand": "HK", "public_card": "HQ", "all_chips": [10, 6], "my_chips": 6, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "64_1": {"raw_obs": {"hand": "HJ", "public_card": null, "all_chips": [2, 2], "my_chips": 2, "legal_actions": ["raise", "fold", "check"], "current_player": 1}}}
+{"message": "", "64_3": {"raw_obs": {"hand": "HJ", "public_card": "HK", "all_chips": [2, 2], "my_chips": 2, "legal_actions": ["raise", "fold", "check"], "current_player": 1}}}
+{"message": "", "65_0": {"raw_obs": {"hand": "SQ", "public_card": null, "all_chips": [2, 1], "my_chips": 1, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "65_2": {"raw_obs": {"hand": "SQ", "public_card": "HQ", "all_chips": [2, 2], "my_chips": 2, "legal_actions": ["raise", "fold", "check"], "current_player": 1}}}
+{"message": "", "66_1": {"raw_obs": {"hand": "HJ", "public_card": null, "all_chips": [2, 2], "my_chips": 2, "legal_actions": ["raise", "fold", "check"], "current_player": 1}}}
+{"message": "", "66_3": {"raw_obs": {"hand": "HJ", "public_card": "HK", "all_chips": [6, 2], "my_chips": 2, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "67_1": {"raw_obs": {"hand": "HJ", "public_card": null, "all_chips": [4, 2], "my_chips": 2, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}
+{"message": "", "67_3": {"raw_obs": {"hand": "HJ", "public_card": "HK", "all_chips": [4, 4], "my_chips": 4, "legal_actions": ["raise", "fold", "check"], "current_player": 1}}}
+{"message": "", "68_1": {"raw_obs": {"hand": "SQ", "public_card": null, "all_chips": [4, 2], "my_chips": 2, "legal_actions": ["call", "raise", "fold"], "current_player": 1}}}

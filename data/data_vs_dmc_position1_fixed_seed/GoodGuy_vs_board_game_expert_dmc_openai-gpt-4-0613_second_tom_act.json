@@ -1,0 +1,113 @@
+{"message": "", "1_1": {"act": "call", "talk_sentence": "I think you might want to reconsider your next move."}}
+{"message": "", "1_3": {"act": "raise", "talk_sentence": "Keep your eyes on the prize, GoodGuy."}}
+{"message": "", "2_1": {"act": "raise", "talk_sentence": "I think you might want to reconsider your strategy, GoodGuy."}}
+{"message": "", "2_3": {"act": "raise", "talk_sentence": "I think you're bluffing, GoodGuy. Let's see who has the better hand."}}
+{"message": "", "2_5": {"act": "call", "talk_sentence": "I think you're bluffing, GoodGuy. Let's see who has the upper hand here."}}
+{"message": "", "3_0": {"act": "raise", "talk_sentence": "I think you might be overestimating your hand, GoodGuy."}}
+{"message": "", "3_2": {"act": "raise", "talk_sentence": "I've got a good hand, GoodGuy. You might want to think twice before you raise."}}
+{"message": "", "4_0": {"act": "call", "talk_sentence": "Good luck, may the best player win!"}}
+{"message": "", "4_2": {"act": "raise", "talk_sentence": "I'm feeling lucky today, GoodGuy. Let's see how this plays out."}}
+{"message": "", "4_4": {"act": "fold", "talk_sentence": "I think I'll sit this one out, GoodGuy."}}
+{"message": "", "5_0": {"act": "raise", "talk_sentence": "I've got a good feeling about this hand, GoodGuy."}}
+{"message": "", "5_2": {"act": "raise", "talk_sentence": "I think you might want to reconsider your next move, GoodGuy."}}
+{"message": "", "6_1": {"act": "raise", "talk_sentence": "I think you're bluffing, GoodGuy. Let's see who's got the better hand."}}
+{"message": "", "6_3": {"act": "raise", "talk_sentence": "I think you're bluffing, GoodGuy. Let's see who's got the better hand."}}
+{"message": "", "7_0": {"act": "raise", "talk_sentence": "I've got a good feeling about this hand, GoodGuy."}}
+{"message": "", "7_2": {"act": "check", "talk_sentence": "I think you might want to reconsider your next move, GoodGuy."}}
+{"message": "", "8_0": {"act": "raise", "talk_sentence": "I think you're bluffing, GoodGuy. Let's see who has the better hand."}}
+{"message": "", "8_2": {"act": "raise", "talk_sentence": "Keep your eyes on the prize, GoodGuy."}}
+{"message": "", "9_0": {"act": "raise", "talk_sentence": "I think you might want to consider folding, GoodGuy."}}
+{"message": "", "9_2": {"act": "raise", "talk_sentence": "I think you're bluffing, GoodGuy. Let's see who has the better hand."}}
+{"message": "", "10_1": {"act": "raise", "talk_sentence": "I've got a feeling this is my lucky round, GoodGuy."}}
+{"message": "", "10_3": {"act": "raise", "talk_sentence": "I think you might want to consider folding, GoodGuy."}}
+{"message": "", "11_0": {"act": "raise", "talk_sentence": "Keep your eyes on the prize, GoodGuy."}}
+{"message": "", "11_2": {"act": "raise", "talk_sentence": "I've got a feeling this is my lucky hand, GoodGuy."}}
+{"message": "", "12_1": {"act": "check", "talk_sentence": "I think you might have a better hand, but let's see what the next card brings."}}
+{"message": "", "12_3": {"act": "raise", "talk_sentence": "I think you're bluffing, GoodGuy. Let's see who has the better hand."}}
+{"message": "", "13_1": {"act": "raise", "talk_sentence": "I think you might want to reconsider your next move, GoodGuy."}}
+{"message": "", "13_3": {"act": "raise", "talk_sentence": "I've got a feeling you're not holding much, GoodGuy."}}
+{"message": "", "14_0": {"act": "call", "talk_sentence": "I think you're bluffing, GoodGuy. Let's see what you've got."}}
+{"message": "", "14_2": {"act": "raise", "talk_sentence": "I've got a feeling you're bluffing, GoodGuy. Let's see who's got the better hand."}}
+{"message": "", "14_4": {"act": "call", "talk_sentence": "Good luck, may the best hand win!"}}
+{"message": "", "15_0": {"act": "raise", "talk_sentence": "Keep your eyes on the prize, GoodGuy."}}
+{"message": "", "15_2": {"act": "raise", "talk_sentence": "I've got a feeling this is my lucky hand, GoodGuy."}}
+{"message": "", "16_1": {"act": "call", "talk_sentence": "Keep your eyes on the prize, GoodGuy."}}
+{"message": "", "16_3": {"act": "raise", "talk_sentence": "I've got a feeling this is my lucky hand, GoodGuy."}}
+{"message": "", "17_0": {"act": "call", "talk_sentence": "I've got a feeling this is going to be a good round for me."}}
+{"message": "", "17_2": {"act": "check", "talk_sentence": "I think you might have a good hand there, GoodGuy."}}
+{"message": "", "17_4": {"act": "raise", "talk_sentence": "I think you're bluffing, GoodGuy. Let's see who has the better hand."}}
+{"message": "", "18_1": {"act": "call", "talk_sentence": "I think you're bluffing, let's see what you've got."}}
+{"message": "", "18_3": {"act": "raise", "talk_sentence": "I think you might want to reconsider your next move, GoodGuy."}}
+{"message": "", "19_0": {"act": "call", "talk_sentence": "I think you're bluffing, GoodGuy. Let's see what you've got."}}
+{"message": "", "19_2": {"act": "raise", "talk_sentence": "I think you might want to consider folding, GoodGuy."}}
+{"message": "", "20_1": {"act": "call", "talk_sentence": "Keep your eyes on the prize, GoodGuy."}}
+{"message": "", "20_3": {"act": "raise", "talk_sentence": "I've got a good feeling about this hand, GoodGuy."}}
+{"message": "", "21_1": {"act": "raise", "talk_sentence": "Good luck, GoodGuy. You're going to need it."}}
+{"message": "", "21_3": {"act": "raise", "talk_sentence": "I've got a good feeling about this hand, GoodGuy. You might want to think twice before making your next move."}}
+{"message": "", "22_0": {"act": "call", "talk_sentence": "Keep your eyes on the prize, GoodGuy."}}
+{"message": "", "22_2": {"act": "raise", "talk_sentence": "I think you're bluffing, GoodGuy. Let's see who has the better hand."}}
+{"message": "", "23_1": {"act": "raise", "talk_sentence": "Good luck, GoodGuy. You're going to need it."}}
+{"message": "", "23_3": {"act": "fold", "talk_sentence": "I think I'll play it safe this round, GoodGuy."}}
+{"message": "", "24_0": {"act": "raise", "talk_sentence": "I think you're bluffing, GoodGuy. Let's see who has the better hand."}}
+{"message": "", "24_2": {"act": "raise", "talk_sentence": "I've got a feeling this is my lucky hand, GoodGuy."}}
+{"message": "", "24_4": {"act": "call", "talk_sentence": "Keep your eyes on the prize, GoodGuy."}}
+{"message": "", "25_1": {"act": "raise", "talk_sentence": "I've got a feeling this is my lucky hand, GoodGuy."}}
+{"message": "", "25_3": {"act": "raise", "talk_sentence": "I've got a feeling this is going to be a good round for me."}}
+{"message": "", "26_0": {"act": "raise", "talk_sentence": "I've got a feeling this is my lucky hand, GoodGuy."}}
+{"message": "", "26_2": {"act": "raise", "talk_sentence": "I think you might want to consider folding, GoodGuy."}}
+{"message": "", "27_0": {"act": "raise", "talk_sentence": "I think you're bluffing, GoodGuy. Let's see who's got the better hand."}}
+{"message": "", "27_2": {"act": "check", "talk_sentence": "Good luck, GoodGuy. You're going to need it."}}
+{"message": "", "27_4": {"act": "call", "talk_sentence": "Good luck, may the best hand win!"}}
+{"message": "", "28_0": {"act": "raise", "talk_sentence": "I've got a feeling this is my lucky hand, GoodGuy."}}
+{"message": "", "28_2": {"act": "check", "talk_sentence": "GoodGuy, I see you're playing it safe. Let's see how this plays out."}}
+{"message": "", "29_1": {"act": "raise", "talk_sentence": "I think you're bluffing, GoodGuy. Let's see who has the better hand."}}
+{"message": "", "29_3": {"act": "raise", "talk_sentence": "I've got a feeling this is my lucky hand, GoodGuy."}}
+{"message": "", "30_1": {"act": "raise", "talk_sentence": "I've got a good feeling about this hand, GoodGuy."}}
+{"message": "", "30_3": {"act": "raise", "talk_sentence": "I've got a good hand, GoodGuy. Let's see if you can match it."}}
+{"message": "", "30_5": {"act": "call", "talk_sentence": "Keep your eyes on the prize, GoodGuy."}}
+{"message": "", "31_0": {"act": "raise", "talk_sentence": "I've got a feeling this is my lucky hand, GoodGuy."}}
+{"message": "", "31_2": {"act": "raise", "talk_sentence": "I've got a feeling this is my lucky hand, GoodGuy."}}
+{"message": "", "32_0": {"act": "raise", "talk_sentence": "Keep your eyes on the prize, GoodGuy. You never know what might happen next."}}
+{"message": "", "32_2": {"act": "raise", "talk_sentence": "I think you're bluffing, GoodGuy. Let's see how this plays out."}}
+{"message": "", "33_1": {"act": "raise", "talk_sentence": "I think you're bluffing, GoodGuy. Let's see who has the better hand."}}
+{"message": "", "33_3": {"act": "raise", "talk_sentence": "I've got a feeling this is going to be a good round for me."}}
+{"message": "", "33_5": {"act": "call", "talk_sentence": "I think you're bluffing, GoodGuy. Let's see who has the better hand."}}
+{"message": "", "34_1": {"act": "raise", "talk_sentence": "I've got a feeling this is my lucky hand, GoodGuy."}}
+{"message": "", "34_3": {"act": "raise", "talk_sentence": "I think you might want to consider folding, GoodGuy."}}
+{"message": "", "35_1": {"act": "raise", "talk_sentence": "Keep your eyes on the prize, GoodGuy."}}
+{"message": "", "35_3": {"act": "check", "talk_sentence": "I think you might have a good hand, but let's see how this plays out."}}
+{"message": "", "35_5": {"act": "call", "talk_sentence": "I think you might be overestimating your hand, GoodGuy."}}
+{"message": "", "36_1": {"act": "raise", "talk_sentence": "Keep your eyes on the prize, GoodGuy."}}
+{"message": "", "36_3": {"act": "raise", "talk_sentence": "Keep your eyes on the prize, GoodGuy."}}
+{"message": "", "36_5": {"act": "call", "talk_sentence": "I think you're bluffing, GoodGuy. Let's see who has the better hand."}}
+{"message": "", "37_0": {"act": "call", "talk_sentence": "I think you're bluffing, GoodGuy. Let's see what you've got."}}
+{"message": "", "37_2": {"act": "raise", "talk_sentence": "I've got a feeling this is my lucky hand, GoodGuy."}}
+{"message": "", "38_1": {"act": "raise", "talk_sentence": "I think you might want to consider folding, GoodGuy."}}
+{"message": "", "38_3": {"act": "raise", "talk_sentence": "Good luck, you're going to need it."}}
+{"message": "", "39_0": {"act": "call", "talk_sentence": "Keep your eyes on the prize, GoodGuy."}}
+{"message": "", "39_2": {"act": "raise", "talk_sentence": "I think you might want to consider folding, GoodGuy."}}
+{"message": "", "40_0": {"act": "raise", "talk_sentence": "GoodGuy, I can see you're sweating. Are you sure you want to continue?"}}
+{"message": "", "40_2": {"act": "fold", "talk_sentence": "I think I'll play it safe this round, GoodGuy."}}
+{"message": "", "41_0": {"act": "raise", "talk_sentence": "Good luck, you're going to need it."}}
+{"message": "", "41_2": {"act": "raise", "talk_sentence": "I've got a good feeling about this hand, GoodGuy."}}
+{"message": "", "42_1": {"act": "raise", "talk_sentence": "I think you're bluffing, GoodGuy. Let's see who has the better hand."}}
+{"message": "", "42_3": {"act": "raise", "talk_sentence": "I've got a good hand, GoodGuy. You might want to think twice about your next move."}}
+{"message": "", "43_1": {"act": "raise", "talk_sentence": "I've got a good hand, you might want to think twice before raising."}}
+{"message": "", "43_3": {"act": "raise", "talk_sentence": "Good luck, you're going to need it."}}
+{"message": "", "44_0": {"act": "raise", "talk_sentence": "I think you're bluffing, GoodGuy. Let's see who has the better hand."}}
+{"message": "", "44_2": {"act": "raise", "talk_sentence": "I've got a good hand here, GoodGuy. You might want to think twice before you raise."}}
+{"message": "", "44_4": {"act": "call", "talk_sentence": "I think you're bluffing, GoodGuy. Let's see who has the better hand."}}
+{"message": "", "45_0": {"act": "call", "talk_sentence": "Keep your eyes on the prize, GoodGuy."}}
+{"message": "", "45_2": {"act": "raise", "talk_sentence": "I think you're bluffing, GoodGuy. Let's see what you've got."}}
+{"message": "", "45_4": {"act": "call", "talk_sentence": "I think you're bluffing, GoodGuy. Let's see who has the better hand."}}
+{"message": "", "46_1": {"act": "raise", "talk_sentence": "Good luck, you're going to need it."}}
+{"message": "", "46_3": {"act": "raise", "talk_sentence": "I've got a good hand, GoodGuy. Let's see if you can match it."}}
+{"message": "", "47_0": {"act": "raise", "talk_sentence": "I've got a good feeling about this hand, GoodGuy. Let's see what you've got."}}
+{"message": "", "47_2": {"act": "raise", "talk_sentence": "I've got a good feeling about this hand, GoodGuy. Let's see what you've got."}}
+{"message": "", "48_1": {"act": "call", "talk_sentence": "I've got a good feeling about this hand, GoodGuy. Let's see what the next card brings."}}
+{"message": "", "48_3": {"act": "raise", "talk_sentence": "I think you're bluffing, GoodGuy. Let's see who has the better hand."}}
+{"message": "", "49_0": {"act": "call", "talk_sentence": "I think you're bluffing, GoodGuy. Let's see what you've got."}}
+{"message": "", "49_2": {"act": "check", "talk_sentence": "I've got a good feeling about this hand, GoodGuy."}}
+{"message": "", "49_4": {"act": "fold", "talk_sentence": "Good luck, you're going to need it."}}
+{"message": "", "50_0": {"act": "call", "talk_sentence": "I think you're bluffing, GoodGuy. Let's see what you've got."}}
+{"message": "", "50_2": {"act": "raise", "talk_sentence": "I think you might want to reconsider your next move, GoodGuy."}}

@@ -1,0 +1,16 @@
+rich
+textual
+typer
+termcolor
+tiktoken
+faiss-cpu
+openai
+pinecone-client
+langchain
+discord.py
+inquirer
+rlcard[torch]
+python-json-logger
+gitpython
+gym
+git+https://github.com/CR-Gjx/gym-coup.git
