@@ -267,17 +267,27 @@ class SuspicionAgent(BaseModel):
 
 
 
-    def get_summarization(self, recipient_name: str,game_memory: str, opponent_name:str) -> str:
+    def get_summarization(self, recipient_name: str,game_memory: str, opponent_name:str,no_highsight_obs:bool) -> str:
         """Get a long memory summarization to save costs."""
-        prompt = PromptTemplate.from_template(
-            "You are the player behind a NPC character called {agent_name}, and you are playing the board game {game_name} with {recipient_name}. \n"
-            + " The game rule is: {rule} \n"
-            + " The observation conversion rules are: {observation_rule}\n"
-            + " One game memory including observations, actions and conversations with {recipient_name} is: {long_memory}\n"
-            + " Understanding the game rule, observation conversion rules and game history and your knowledge about the {game_name}, can you do following things:"
-            + " History summarization: summary the game history with action, observation, and results information? using the templete, and respond shortly: In the first round of first game, name holds card1 does action .... continue ..." 
-            + "{opponent_name}'s card reasoning: If the card of {opponent_name} is not available, because {agent_name}'s  card is xx and public card (if release) is xxx, and {opponent_name} behaviours are xx, the current game result is xx,  please  infer {opponent_name}'s card with probability (100% in total) with your understanding about the above all information confidently step by step. \n"
-                )        
+        if no_highsight_obs:
+            prompt = PromptTemplate.from_template(
+                "You are the player behind a NPC character called {agent_name}, and you are playing the board game {game_name} with {recipient_name}. \n"
+                + " The game rule is: {rule} \n"
+                + " The observation conversion rules are: {observation_rule}\n"
+                + " One game memory including observations, actions and conversations with {recipient_name} is: {long_memory}\n"
+                + " Understanding the game rule, observation conversion rules and game history and your knowledge about the {game_name}, can you do following things:"
+                + " History summarization: summary the game history with action, observation, and results information? using the templete, and respond shortly: In the first round of first game, name holds card1 does action .... continue ..." 
+                + "{opponent_name}'s card reasoning: If the card of {opponent_name} is not available, because {agent_name}'s  card is xx and public card (if release) is xxx, and {opponent_name} behaviours are xx, the current game result is xx,  please  infer {opponent_name}'s card with probability (100% in total) with your understanding about the above all information confidently step by step. \n"
+                )
+        else:
+            prompt = PromptTemplate.from_template(
+                "You are the player behind a NPC character called {agent_name}, and you are playing the board game {game_name} with {recipient_name}. \n"
+                + " The game rule is: {rule} \n"
+                + " The observation conversion rules are: {observation_rule}\n"
+                + " One game memory including observations, actions and conversations with {recipient_name} is: {long_memory}\n"
+                + " Understanding the game rule, observation conversion rules and game history and your knowledge about the {game_name}, can you do following things:"
+                + " History summarization: summary the game history with action, observation, and results information? using the templete, and respond shortly: In the first round of first game, name holds card1 does action .... continue ..." 
+                )       
         reflection_chain = LLMChain(llm=self.llm, prompt=prompt, verbose=self.verbose)
         kwargs = dict(
             observation_rule=self.observation_rule,
@@ -390,7 +400,7 @@ class SuspicionAgent(BaseModel):
             result_comm = ""
         return result.strip(),result_comm.strip()
 
-    def make_act(self, observation: str,opponent_name: str, player_index:int,valid_action_list: List, verbose_print:bool,game_idx:int,round:int,bot_short_memory:List, bot_long_memory:List, console,log_file_name='', mode='second_tom') -> Tuple[bool, str]:
+    def make_act(self, observation: str,opponent_name: str, player_index:int,valid_action_list: List, verbose_print:bool,game_idx:int,round:int,bot_short_memory:List, bot_long_memory:List, console,log_file_name='', mode='second_tom',no_highsight_obs=False) -> Tuple[bool, str]:
         readable_text_amy_obs = self.convert_obs(observation, opponent_name, player_index, valid_action_list)
         if  verbose_print:
             console.print('readable_text_obs: ', style="red")

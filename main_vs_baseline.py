@@ -159,9 +159,11 @@ def run(args):
                     console.print(act, style="green")
                     bot_short_memory[(args.user_index + 1) % args.agents_num].append(
                         f"The valid action list of {ctx.robot_agents[args.user_index].name} is {env.get_state(env.get_player_id())['raw_legal_actions']}, and he tries to take action: {act}.")
-                    # bot_long_memory[(args.user_index) % args.agents_num].append(
-                        #  f"{ctx.robot_agents[args.user_index].name} try to take action: {act}.")
-                    bot_long_memory[(args.user_index) % args.agents_num].append(
+                    if args.no_hindsight_obs:
+                        bot_long_memory[(args.user_index) % args.agents_num].append(
+                              f"{ctx.robot_agents[args.user_index].name} try to take action: {act}.")
+                    else:
+                        bot_long_memory[(args.user_index) % args.agents_num].append(
                          f"{ctx.robot_agents[args.user_index].name} have the observation: {env.get_state(env.get_player_id())['raw_obs']}, and try to take action: {act}.")
 
                 else:
@@ -205,7 +207,7 @@ def run(args):
                 [x + '\n' + y for x, y in zip(bot_long_memory[start_idx], bot_long_memory[(start_idx + 1) % args.agents_num])])
             # print(long_memory)
             memory_summarization = ctx.robot_agents[(args.user_index + 1) % args.agents_num].get_summarization(
-                ctx.robot_agents[(args.user_index + 1) % args.agents_num].name, long_memory, ctx.robot_agents[(args.user_index) % args.agents_num].name)
+                ctx.robot_agents[(args.user_index + 1) % args.agents_num].name, long_memory, ctx.robot_agents[(args.user_index) % args.agents_num].name,no_highsight_obs=args.no_hindsight_obs)
             
             ctx.robot_agents[i].add_long_memory(f"{game_idx+1}th Game Start! \n"+memory_summarization)
             # if args.
@@ -236,6 +238,7 @@ if __name__ == "__main__":
     parser.add_argument("--user_index", type=int, default=1, help="user position: 0 or 1")
     parser.add_argument("--game_num", type=int, default=50)
     parser.add_argument("--random_seed", action="store_true")
+    parser.add_argument("--no_hindsight_obs", action="store_true")
 
     args = parser.parse_args()
     run(args)
