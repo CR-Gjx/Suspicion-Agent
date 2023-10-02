@@ -1,6 +1,6 @@
 # Suspicion Agent: Playing Imperfect Information Games with Theory of Mind Aware GPT-4
 
-The implementation of "[Suspicion Agent: Playing Imperfect Information Games with Theory of Mind Aware GPT-4]".
+The implementation of "[Suspicion Agent: Playing Imperfect Information Games with Theory of Mind Aware GPT-4](http://arxiv.org/abs/2309.17277)".
 
 ### [Project Demo](https://huggingface.co/spaces/cr7-gjx/Suspicion-Agent-Demo) | [Game Data Replay](https://huggingface.co/spaces/cr7-gjx/Suspicion-Agent-Data-Visualization) 
 
@@ -37,6 +37,14 @@ python main_vs_baseline.py --user --verbose_print  --rule_model [cfr/ nfsp / dqn
 ## Reference
 
 ```
+@misc{guo2023suspicionagent,
+      title={Suspicion-Agent: Playing Imperfect Information Games with Theory of Mind Aware GPT4}, 
+      author={Jiaxian Guo and Bo Yang and Paul Yoo and Yuchen Lin and Yusuke Iwasawa and Yutaka Matsuo},
+      year={2023},
+      eprint={2309.17277},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI}
+}
 
 ```
 Note: this code is based on the [SkyAGI](https://github.com/litanlitudan/skyagi). Many thanks to [the authors](https://github.com/litanlitudan/skyagi).
