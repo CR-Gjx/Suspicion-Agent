@@ -34,6 +34,12 @@ python main_vs_baseline.py --user --verbose_print  --rule_model [cfr/ nfsp / dqn
 
 ![figure](figures/Sample_second.png)
 ![figure](figures/Sample_Second_fold.png)
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=CR-Gjx/Suspicion-Agent-public&type=Date)](https://star-history.com/#CR-Gjx/Suspicion-Agent-public&Date)
+
+
 ## Reference
 
 ```
