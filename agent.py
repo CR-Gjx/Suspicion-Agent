@@ -205,7 +205,7 @@ class SuspicionAgent(BaseModel):
         return self.belief.strip()
 
     
-    def get_pattern(self, recipient_name: str,game_pattern: str='', last_k:int=8,short_summarization:str='',mode:str='second_tom') -> str:
+    def get_pattern(self, recipient_name: str,game_pattern: str='', last_k:int=20,short_summarization:str='',mode:str='second_tom') -> str:
         """React to get a belief."""
        
         if mode == 'second_tom':
